@@ -1,22 +1,24 @@
 package lesson1;
 
 /**
- * 1. Создать пустой проект в IntelliJ IDEA, создать класс HomeWorkApp, и прописать в нем метод main().
- * 2. Создайте метод printThreeWords(), который при вызове должен отпечатать в столбец три слова: Orange, Banana, Apple.
+ * 1. Create the Printhreewords method, which, when calling, should print three words in the column:
  * Orange
  * Banana
  * Apple
-  * 3. Создайте метод checkSumSign(), в теле которого объявите две int переменные a и b,
- * и инициализируйте их любыми значениями, которыми захотите. Далее метод должен просуммировать эти переменные,
- * и если их сумма больше или равна 0, то вывести в консоль сообщение “Сумма положительная”,
- * в противном случае - “Сумма отрицательная”;
-  * 4. Создайте метод printColor() в теле которого задайте int переменную value и инициализируйте ее любым значением.
- * Если value меньше 0 (0 включительно), то в консоль метод должен вывести сообщение “Красный”,
- * если лежит в пределах от 0 (0 исключительно) до 100 (100 включительно),
- * то “Желтый”, если больше 100 (100 исключительно) - “Зеленый”;
-  * 5. Создайте метод compareNumbers(), в теле которого объявите две int переменные a и b,
- * и инициализируйте их любыми значениями, которыми захотите. Если a больше или равно b,
- * то необходимо вывести в консоль сообщение “a >= b”, в противном случае “a < b”;
+
+ * 2. Create the Checksumsign method, in the body of which you declare two intents a and b,
+ * And initialize them with any meanings that you want. Further, the method should smoke these variables,
+ * And if their amount is more or equal to 0, then display the message “Positive amount” to the console,
+ * otherwise - “the amount of negative”;
+
+ * 3. Create the PRINTCOLOR method in whose body set the Value variable and initialize it with any value.
+ * If Value is less than 0 (0 inclusive), then the “red” message should be displayed in the console,
+ * if it lies in the range from 0 (0 exclusively) to 100 (100 inclusive),
+ * then “yellow”, if more than 100 (100 exclusively) - “green”;
+
+ * 4. Create the Comparenumbs method, in the body of which you declare two intents a and b,
+ * And initialize them with any meanings that you want. If more or equal to B,
+ * then it is necessary to display the message “a> = b” to the console, otherwise “a <b”;
  */
 public class lesson1 {
     public static void main(String[] args) {
@@ -37,20 +39,20 @@ public class lesson1 {
         int b = 5;
         int sum = a + b;
         if(sum>=0){
-            System.out.println("Сумма положительная");
+            System.out.println("Positive amount");
         } else {
-            System.out.println("Сумма отрицательная");
+            System.out.println("The amount is negative");
         }
     }
 
     public static void printColor(){
         int value = 999;
         if(value<=0){
-            System.out.println("Красный");
+            System.out.println("Red");
         }else if(value<=100){
-            System.out.println("Желтый");
+            System.out.println("Yellow");
         }else {
-            System.out.println("Зеленый");
+            System.out.println("Green");
         }
     }
 
