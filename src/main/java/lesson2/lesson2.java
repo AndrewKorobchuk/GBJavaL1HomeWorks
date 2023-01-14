@@ -1,21 +1,22 @@
 package lesson2;
 
 /**
- * 1. Написать метод, принимающий на вход два целых числа и проверяющий,
- * что их сумма лежит в пределах от 10 до 20 (включительно), если да – вернуть true, в противном случае – false.
+ * 1. Write a method that takes two integers to the input and checks that their amount lies in the range
+ * from 10 to 20 (inclusive), if yes, return True, otherwise - false.
  *
- * 2. Написать метод, которому в качестве параметра передается целое число,
- * метод должен напечатать в консоль, положительное ли число передали или отрицательное.
- * Замечание: ноль считаем положительным числом.
+ * 2. Write a method that is transmitted as a parameter as an integer,
+ * the method should be printed in the console whether the number was transmitted or negative.
+ Note: zero is considered a positive number.
  *
- * 3. Написать метод, которому в качестве параметра передается целое число.
- * Метод должен вернуть true, если число отрицательное, и вернуть false если положительное.
+ * 3. Write a method to which an integer is transmitted as a parameter.
+ * The method should return True if the number is negative, and return the FALSE if positive.
  *
- * 4. Написать метод, которому в качестве аргументов передается строка и число,
- * метод должен отпечатать в консоль указанную строку, указанное количество раз;
+ * 4. Write a method to which the line and number are transmitted as arguments,
+ * the method must print the indicated number indicated number of times to the console;
  *
- * 5. * Написать метод, который определяет, является ли год високосным, и возвращает boolean (високосный - true,
- * не високосный - false). Каждый 4-й год является високосным, кроме каждого 100-го, при этом каждый 400-й – високосный.
+ * 5. * Write a method that determines whether the year is a leap year,
+ * and returns Boolean (leaps -bosom - true, not a leap - false).
+ * Every 4th year is a leap, except for every 100th, while every 400 is a leap.
  */
 public class lesson2 {
     public static void main(String[] args) {
