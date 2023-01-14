@@ -1,7 +1,6 @@
 package lesson3;
 
 import java.util.Arrays;
-/**
  /**
  1. Set an integer array consisting of elements 0 and 1. For example: [1, 1, 0, 1, 0, 1, 1, 0, 0].
  Using the cycle and the conditions replace 0 by 1, 1 by 0;
