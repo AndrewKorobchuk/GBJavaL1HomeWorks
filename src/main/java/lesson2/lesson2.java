@@ -37,9 +37,9 @@ public class lesson2 {
 
     public static void positiveOrNegative(int a){
         if(positive(a)){
-            System.out.println("Передали положительное число");
+            System.out.println("Passed a positive number");
         }else{
-            System.out.println("Передали отрицательное число");
+            System.out.println("Passed a negative number");
         }
     }
 
@@ -56,11 +56,11 @@ public class lesson2 {
     public static void leapYear(int year){
         if((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0)))
         {
-            System.out.println(year +" - високосный год.");
+            System.out.println(year +" is lap year.");
         }
         else
         {
-            System.out.println(year + " - не високосный год.");
+            System.out.println(year + " is not lap year.");
         }
     }
 }
